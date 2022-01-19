@@ -24,10 +24,10 @@ struct Turing : Module {
 
 	Turing() {
 		config(NUM_PARAMS, NUM_INPUTS, NUM_OUTPUTS, NUM_LIGHTS);
-      configParam(PARAM6+0, -12.f, 12.f, 4.f, "Mul");
-      configParam(PARAM6+1, 1.f, 48.f, 4.f, "Div");
-      configParam(PARAM6+2, -12.f, 12.f, 4.f, "Mul");
-      configParam(PARAM6+3, 1.f, 48.f, 4.f, "Div");
+      configParam(PARAM6+0, -60.f, 360.f, 4.f, "Mul");
+      configParam(PARAM6+1, 1.f, 420.f, 4.f, "Div");
+      configParam(PARAM6+2, -60.f, 360.f, 4.f, "Mul");
+      configParam(PARAM6+3, 1.f, 420.f, 4.f, "Div");
 	  
 	  configInput(IN_INPUT+0, "IN");
 	  configInput(IN_INPUT+1, "IN");
